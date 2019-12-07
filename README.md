@@ -17,8 +17,8 @@ npm install
 # Run webpack (from root)
 cd Django_challenge_solution/Django_challenge
 npm run dev
-#migration
-cd Django_challenge_solution\Django_challenge\Django_challenge
+
+#open another sher for Linux
 python manage.py migrate
 # Serve API on localhost:8000
 python manage.py runserver
