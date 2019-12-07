@@ -14,9 +14,9 @@ npm install
 
 # Run webpack (from root)
 npm run dev
-
+python manage.py migrate
 # Serve API on localhost:8000
-python leadmanager/manage.py runserver
+python manage.py runserver
 
 # Build for production
 #npm run build
