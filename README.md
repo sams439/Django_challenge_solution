@@ -7,16 +7,21 @@ Make sure you have node.js
 #Make a virtual environment
 pipenv shell
 #install python packages
+cd Django_challenge_solution
 pipenv install django djangorestframework django-rest-knox
 # Install dependencies
+cd Django_challenge_solution/Django_challenge
 npm install
 
 
 # Run webpack (from root)
+cd Django_challenge_solution/Django_challenge
 npm run dev
-
+#migration
+cd Django_challenge_solution\Django_challenge\Django_challenge
+python manage.py migrate
 # Serve API on localhost:8000
-python leadmanager/manage.py runserver
+python manage.py runserver
 
 # Build for production
 #npm run build

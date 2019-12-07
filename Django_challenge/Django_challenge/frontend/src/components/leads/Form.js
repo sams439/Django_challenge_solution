@@ -28,7 +28,7 @@ export class Form extends Component {
     const { name } = this.state;
     return (
       <div className="card card-body mt-4 mb-4">
-        <h2>Search_for_users_follow</h2>
+        <h2>Search_for_users_to_follow</h2>
         <form onSubmit={this.onSubmit}>
           <div className="form-group">
             <label>Name</label>
